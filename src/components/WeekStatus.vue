@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { onMounted, reactive, ref, toRef, toRefs } from "@vue/runtime-core";
+import { onMounted, reactive, ref, toRefs } from "@vue/runtime-core";
 import apiPetitions from "../services/service-api";
 export default {
   name: "WeekStatus",
